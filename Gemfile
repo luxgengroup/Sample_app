@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 
-group :development, :test do
+group :development do
   gem 'rspec-rails', '2.10.0'
 end
 
@@ -25,4 +25,13 @@ gem 'jquery-rails', '2.0.0'
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'spork'
+  gem 'autotest'
+  gem 'autotest-fsevent'                                                
+  gem 'autotest-growl'
+  gem "ZenTest"
+  gem "autotest-rails-pure"
+  gem 'rspec-rails', '2.10.0'
 end
+
+
