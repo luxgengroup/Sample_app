@@ -32,6 +32,7 @@ group :test do
   gem "ZenTest"
   gem "autotest-rails-pure"
   gem 'rspec-rails', '2.10.0'
+  gem 'webrat'
 end
 
 
