@@ -9,13 +9,13 @@
 		<%= stylesheet_link_tag 'blueprint/screen.css', :media=>'screen' %>
 		<%= stylesheet_link_tag 'blueprint/print.css', :media=>'print' %>
 		<!--[if lt IE8]> <%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
-		<%= stylesheet_link_tag 'custom', :media=>'screen' %>
+		<%= stylesheet_link_tag 'custom.css', :media=>'screen' %>
 		
 	</head>
 	<body>
 		<div class="container">
 			<header>
-				<%= image_tag("logo.png", :alt=>"Sample App", :class=>"round") %>
+				<%= image_tag("http://railstutorial.org/images/sample_app/logo.png", :alt=>"Sample App", :class=>"round") %>
 				<nav class="round">
 					<ul>
 						<li><%= link_to "Home", "#" %></li>
