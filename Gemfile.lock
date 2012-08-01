@@ -30,6 +30,8 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     addressable (2.3.1)
+    annotate (2.5.0)
+      rake
     arel (3.0.2)
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
@@ -161,6 +163,7 @@ PLATFORMS
 
 DEPENDENCIES
   ZenTest
+  annotate
   autotest
   autotest-fsevent
   autotest-growl
