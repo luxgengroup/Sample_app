@@ -5,6 +5,8 @@ gem 'rails', '3.2.6'
 group :development do
   gem 'rspec-rails', '2.10.0'
   gem 'annotate'
+  gem 'factory_girl_rails'
+
 end
 
 gem 'sqlite3', :group => [:development, :test]
@@ -34,6 +36,7 @@ group :test do
   gem "autotest-rails-pure"
   gem 'rspec-rails', '2.10.0'
   gem 'webrat'
+  gem 'factory_girl_rails'
 end
 
 
