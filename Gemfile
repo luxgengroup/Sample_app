@@ -3,13 +3,13 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.6'
 gem 'gravatar_image_tag'
 gem 'will_paginate', '3.0.pre4'
+gem 'faker', '0.3.1', :require => false
 
 group :development do
   gem 'rspec-rails', '2.10.0'
   gem 'annotate'
   gem 'factory_girl_rails'
   gem 'guard-livereload'
-  gem 'faker', '0.3.1'
 end
 
 gem 'sqlite3', :group => [:development, :test]
@@ -17,6 +17,7 @@ gem 'sqlite3', :group => [:development, :test]
 group :production do
   gem 'thin'
   gem 'pg'
+
 end
 
 # Gems used only for assets and not required
