@@ -3,14 +3,13 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.6'
 gem 'gravatar_image_tag'
 gem 'will_paginate', '3.0.pre4'
-
+gem 'faker', '0.3.1', :require => false
+gem 'factory_girl_rails'
 
 group :development do
   gem 'rspec-rails', '2.10.0'
   gem 'annotate'
   gem 'guard-livereload'
-  gem 'faker', '0.3.1'
-  gem 'factory_girl_rails'
 end
 
 gem 'sqlite3', :group => [:development, :test]
