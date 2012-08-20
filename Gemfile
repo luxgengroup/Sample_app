@@ -40,7 +40,6 @@ group :test do
   gem "autotest-rails-pure"
   gem 'rspec-rails', '2.10.0'
   gem 'webrat'
-  gem 'factory_girl_rails'
 end
 
 
