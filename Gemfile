@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 gem 'gravatar_image_tag'
-gem 'will_paginate', '3.0.pre4'
-gem 'faker', '0.3.1', :require => false
+gem 'will_paginate', '~> 3.0'
+gem 'faker', :require => false
 gem 'factory_girl_rails'
 
 group :development do
